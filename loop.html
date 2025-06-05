@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <p id="java"></p>
+
+</body>
+
+<script>
+
+   const num = 5
+
+   for (let i = 1; i <= num; i++) {
+
+      let value = " "
+
+      for (let n = 1; n <= i; n++) {
+
+         value = value + " * "
+      }
+
+      console.log(value)
+
+
+
+   }
+
+
+
+   const val = 1
+
+
+   for (let y = 5; y >= val; y--) {
+
+      let star = " "
+
+      for (let x = 1; x <= y; x++) {
+
+         star = star + " * "
+
+      }
+
+      console.log(star)
+
+   }
+
+   //task
+
+   const sq = 6
+
+   for (let m = 1; m <= sq; m++) {             // m  row
+
+      let square = " "
+      // console.log(m)
+
+      for (let p = 1; p <= sq; p++) {          //p  column
+         // console.log(p,m)
+
+         if (m == 1 || m == 6 || p == 1 || p == 6) {
+
+            square += " * " // square = square +"*"
+
+         }
+         else {
+
+            square += "   "
+         }
+         // console.log(p)
+      }
+
+      console.log(square)
+
+
+
+
+   }
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>
